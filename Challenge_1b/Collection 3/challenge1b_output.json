@@ -1,0 +1,77 @@
+{
+    "metadata": {
+        "input_documents": [
+            "Dinner Ideas - Mains_2.pdf",
+            "Dinner Ideas - Sides_2.pdf",
+            "Dinner Ideas - Sides_3.pdf",
+            "Breakfast Ideas.pdf",
+            "Dinner Ideas - Sides_4.pdf",
+            "Dinner Ideas - Sides_1.pdf",
+            "Dinner Ideas - Mains_3.pdf",
+            "Lunch Ideas.pdf",
+            "Dinner Ideas - Mains_1.pdf"
+        ],
+        "persona": "Food Contractor",
+        "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+        "processing_timestamp": "2025-07-25T19:19:39"
+    },
+    "extracted_sections": [
+        {
+            "document": "Breakfast Ideas.pdf",
+            "section_title": "\u2022 ",
+            "importance_rank": 1,
+            "page_number": 16
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "section_title": "\u2022 ",
+            "importance_rank": 2,
+            "page_number": 14
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "section_title": "\uf0b7 ",
+            "importance_rank": 3,
+            "page_number": 14
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "section_title": "\uf0b7 ",
+            "importance_rank": 4,
+            "page_number": 5
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "section_title": "o Drain on paper towels and serve. ",
+            "importance_rank": 5,
+            "page_number": 8
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "Breakfast Ideas.pdf",
+            "refined_text": "\u2022 \nServe immediately. \n \n \n \nCottage Cheese and Veggie Bowl \nIngredients: \n\u2022 \n1 cup cottage cheese \n\u2022 \n1/4 cup diced cucumber \n\u2022 \n1/4 cup cherry tomatoes, halved \n\u2022 \n1/4 cup diced bell pepper \n\u2022 \nSalt and pepper to taste \nInstructions: \n\u2022 \nIn a bowl, combine cottage cheese, cucumber, cherry tomatoes, and bell pepper. \n\u2022 \nSeason with salt and pepper. \n\u2022 \nServe immediately. \n \n \n \n \nAlmond Butter and Apple Slices \nIngredients: \n\u2022 \n1 apple, sliced \n\u2022 \n2 tablespoons almond butter \nInstructions: \n\u2022 \nSpread almond butter on each apple slice. \n\u2022 \nServe immediately. \n \n",
+            "page_number": 16
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "refined_text": "\u2022 \n1/4 cup spinach, chopped \n\u2022 \n1/4 cup shredded carrots \n\u2022 \n1 tablespoon tahini \n\u2022 \n1 tablespoon lemon juice \n\u2022 \nSalt and pepper to taste \nInstructions: \n\u2022 \nIn a bowl, combine the mashed chickpeas, spinach, carrots, tahini, and lemon juice. \n\u2022 \nSeason with salt and pepper. \n\u2022 \nLay the tortilla flat and spread the mixture evenly. \n\u2022 \nRoll up the tortilla tightly and slice in half. \n \n \n \nTurkey and Apple Sandwich \nIngredients: \n\u2022 \n2 slices whole grain bread \n\u2022 \n4 slices turkey breast \n\u2022 \n1/2 apple, thinly sliced \n\u2022 \n1/4 cup baby spinach \n\u2022 \n1 tablespoon mustard or mayo \nInstructions: \n\u2022 \nSpread mustard or mayo on one slice of bread. \n\u2022 \nLayer the turkey, apple slices, and spinach on top. \n\u2022 \nTop with the second slice of bread and cut in half. \n \n \n \n \n \nMediterranean Tuna Salad \nIngredients: \n\u2022 \n1 can tuna, drained \n\u2022 \n1/4 cup cherry tomatoes, halved \n\u2022 \n1/4 cup cucumber, diced \n\u2022 \n1/4 cup black olives, sliced \n\u2022 \n1/4 cup feta cheese, crumbled \n\u2022 \n2 tablespoons olive oil \n\u2022 \n1 tablespo",
+            "page_number": 14
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "\uf0b7 \n1 pound ground beef \n\uf0b7 \n1/2 pound ground pork \n\uf0b7 \n1 small onion, diced \n\uf0b7 \n2 cloves garlic, minced \n\uf0b7 \n1/2 cup breadcrumbs \n\uf0b7 \n1/4 cup milk \n\uf0b7 \n1 egg, beaten \n\uf0b7 \n1/4 cup ketchup \n\uf0b7 \n1 tablespoon Worcestershire sauce \n\uf0b7 \n1 teaspoon salt \n\uf0b7 \n1/2 teaspoon pepper \nInstructions: \n\uf0b7 \nPreheat oven to 350\u00b0F (175\u00b0C). \n\uf0b7 \nIn a large bowl, mix ground beef, ground pork, diced onion, minced garlic, breadcrumbs, \nmilk, beaten egg, ketchup, Worcestershire sauce, salt, and pepper. \n\uf0b7 \nShape the mixture into a loaf and place in a baking dish. \n\uf0b7 \nBake for 1 hour until cooked through. \n\uf0b7 \nLet rest before slicing and serving. \n \n \n \nPaella \nIngredients: \n\uf0b7 \n1/2 pound chicken breast, cubed \n\uf0b7 \n1/2 pound shrimp, peeled and deveined \n\uf0b7 \n1/2 pound mussels, cleaned \n\uf0b7 \n1 small onion, diced \n\uf0b7 \n2 cloves garlic, minced \n\uf0b7 \n1 bell pepper, diced \n\uf0b7 \n1 cup short-grain rice \n\uf0b7 \n2 cups chicken broth \n\uf0b7 \n1/2 cup white wine \n\uf0b7 \n1/4 cup olive oil \n\uf0b7 \n1 teaspoon saffron \n\uf0b7 \n1 teaspoon paprika \n\uf0b7 \nSalt and pepper to t",
+            "page_number": 14
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "\uf0b7 \nShredded lettuce, diced tomatoes, shredded cheese, sour cream, and salsa for toppings \nInstructions: \n\uf0b7 \nIn a skillet, cook ground beef over medium heat until browned. \n\uf0b7 \nAdd diced onion and minced garlic, saut\u00e9 until softened. \n\uf0b7 \nStir in taco seasoning and water, simmer until thickened. \n\uf0b7 \nServe beef mixture in taco shells or tortillas with desired toppings. \n \n \n \nLasagna \nIngredients: \n\uf0b7 \n1 pound ground beef \n\uf0b7 \n1 small onion, diced \n\uf0b7 \n2 cloves garlic, minced \n\uf0b7 \n1 jar (24 ounces) marinara sauce \n\uf0b7 \n1 can (15 ounces) ricotta cheese \n\uf0b7 \n1 egg \n\uf0b7 \n1/4 cup grated Parmesan cheese \n\uf0b7 \n1 teaspoon dried basil \n\uf0b7 \n1 teaspoon dried oregano \n\uf0b7 \n9 lasagna noodles, cooked \n\uf0b7 \n2 cups shredded mozzarella cheese \nInstructions: \n\uf0b7 \nPreheat oven to 375\u00b0F (190\u00b0C). \n\uf0b7 \nIn a skillet, cook ground beef, diced onion, and minced garlic until browned. \n\uf0b7 \nStir in marinara sauce and simmer for 10 minutes. \n\uf0b7 \nIn a bowl, mix ricotta cheese, egg, grated Parmesan cheese, basil, and oregano. \n\uf0b7 \nSpread a ",
+            "page_number": 5
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "refined_text": "o Drain on paper towels and serve. \n \nFarofa \n\uf0b7 \nIngredients: \no 2 cups cassava flour \no 1/4 cup butter \no 1 small onion \no 2 cloves garlic \no 1/4 cup bacon \no 1/4 cup parsley \no 1 teaspoon salt \n\uf0b7 \nInstructions: \no Saut\u00e9 diced bacon, onion, and minced garlic in butter until crispy. \no Add cassava flour and cook, stirring constantly, until golden. \no Stir in chopped parsley and salt. \no Serve warm. \n \nFattoush \n\uf0b7 \nIngredients: \no 2 pita breads \no 4 tomatoes \no 1 cucumber \no 1 small red onion \no 1/4 cup parsley \no 1/4 cup mint \no 1/4 cup lemon juice \no 1/4 cup olive oil \no 1 teaspoon sumac \no 1 teaspoon salt \n\uf0b7 \nInstructions: \no Toast pita breads until crispy, then break into pieces. \no Dice tomatoes and cucumber, slice red onion. \no Mix vegetables with chopped parsley and mint. \no Whisk lemon juice, olive oil, sumac, and salt, then pour over salad. \no Toss well and serve. \n \nFava \n\uf0b7 \nIngredients: \no 1 cup yellow split peas \no 1 small onion \no 2 cloves garlic \no 1/4 cup olive oil \no 1/4",
+            "page_number": 8
+        }
+    ]
+}
