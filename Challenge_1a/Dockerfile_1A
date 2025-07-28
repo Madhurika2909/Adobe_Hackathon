@@ -1,5 +1,9 @@
-# Use the Nginx base image
-FROM nginx:alpine
+FROM python:3.9-slim
 
-# Copy your main.html to the default Nginx web root as index.html
-COPY main.html /usr/share/nginx/html/index.html
+WORKDIR /app
+
+COPY pdf_outline_extractor.py .
+
+RUN pip install PyMuPDF
+
+CMD ["python", "pdf_outline_extractor.py"]
