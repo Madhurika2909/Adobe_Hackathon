@@ -1,5 +1,4 @@
-[media pointer="file-service://file-BpS7fZe7tw3LamwgAHdjNp"]
-keep this a refernce:
+
 # Adobe India Hackathon 2025
 
 ## "Connecting the Dots" Challenge
