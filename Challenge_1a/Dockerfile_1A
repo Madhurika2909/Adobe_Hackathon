@@ -1,9 +1,5 @@
-FROM python:3.9-slim
+# Use the Nginx base image
+FROM nginx:alpine
 
-WORKDIR /app
-
-COPY extract_headings.py .
-
-RUN pip install PyMuPDF
-
-CMD ["python", "extract_headings.py"]
+# Copy your main.html to the default Nginx web root as index.html
+COPY main.html /usr/share/nginx/html/index.html
