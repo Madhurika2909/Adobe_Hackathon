@@ -2,8 +2,8 @@ FROM python:3.9-slim
 
 WORKDIR /app
 
-COPY extract_headings.py .
+COPY pdf_outline_extractor.py .
 
 RUN pip install PyMuPDF
 
-CMD ["python", "extract_headings.py"]
+CMD ["python", "pdf_outline_extractor.py"]

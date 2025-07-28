@@ -1,4 +1,11 @@
 {
-    "title": "Microsoft Word - LTC_CLAIM_FORMS .doc",
-    "outline": []
+    "title": "Application form for grant of LTC advance",
+    "outline": [
+        {
+            "level": "H1",
+            "text": "Application form for grant of LTC advance",
+            "page": 1
+        }
+    ],
+    "totalPages": 1
 }
