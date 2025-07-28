@@ -52,20 +52,20 @@ The solution uses the PyMuPDF library to deconstruct the PDF into text "spans", 
 - Font name
 - Coordinates on the page
 
-# Extraction Process (Heuristic Strategy)
+### Extraction Process (Heuristic Strategy)
 
-# 1. Title Detection
+### 1. Title Detection
 - Identify the text with the *largest font size* on the first few pages.
 - Filter out common non-title elements (e.g., "Page 1", "Copyright").
 - Fallback: use the *document filename* if no clear title is found.
 
-# 2. Heading Identification
+### 2. Heading Identification
 A combination of techniques is used:
 - *Pattern Matching*: Search for numbered headings (e.g., "2.1.3 Section Title") and keywords like "Introduction", "Conclusion", etc.
 - *Font Size Analysis*: Calculate dynamic thresholds for H1, H2, and H3 using max and average font sizes.
 - *Style Filtering*: Ensure heading candidates follow title-like formatting (e.g., "Title Case", "ALL CAPS").
 
-# Deduplication and Ordering
+### Deduplication and Ordering
 - Use *Levenshtein distance* to eliminate repeated headers/footers.
 - Sort headings by:
   - Page number
@@ -124,29 +124,29 @@ Challenge_1b/
 ## Methodology:
 This challenge focuses on identifying the *most relevant sections* from a collection of PDFs based on a user's query (persona + task). The solution uses *semantic search* to understand meaning rather than just keyword matches.
 
-# Technical Approach
+### Technical Approach
 
-# Model Selection
+### Model Selection
 - Model used: all-MiniLM-L6-v2 from sentence-transformers
 - Optimized for semantic similarity tasks
 - Lightweight (~80MB) and within the 200MB limit
 
-# Document Processing
+### Document Processing
 - Process each PDF *page by page*
 - Treat each page as a *self-contained chunk*
 
-# Embedding Generation
+### Embedding Generation
 - Combine *persona + task* into a single *query string*
 - Use the model to generate an *embedding vector* for:
   - The user query
   - Each page in the document set
 
-# Relevance Ranking
+### Relevance Ranking
 - Use *cosine similarity* between query and page embeddings
 - Rank based on *contextual alignment*
 - Select *top 5 pages* with the highest similarity scores
 
-# Output Format
+### Output Format
 - Final output is a *JSON file* with:
   - Ranked list of pages
   - Source document
